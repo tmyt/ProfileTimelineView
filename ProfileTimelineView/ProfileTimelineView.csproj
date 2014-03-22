@@ -101,6 +101,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataDownloader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimelineData.cs" />
   </ItemGroup>
