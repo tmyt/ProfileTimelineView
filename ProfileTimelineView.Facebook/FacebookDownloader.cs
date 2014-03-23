@@ -93,8 +93,9 @@ namespace ProfileTimelineView.Facebook
                 {
                     var from = d.GetNamedObject("from");
                     var name = from.GetNamedString("name");
-                    var picture = d.GetNamedString("picture") ?? userPicture;
-                    var message = d.GetNamedString("message");
+                    var picture = d.GetNamedString("picture", userPicture);
+                    var message = d.GetNamedString("message", "");
+                    if (string.IsNullOrWhiteSpace(message)) return null;
                     return new WallEntryData
                     {
                         Body = message,
@@ -102,6 +103,7 @@ namespace ProfileTimelineView.Facebook
                         Title = name
                     };
                 })
+                .Where(d => d != null)
                 .Cast<TimelineData>()
                 .ToList();
         }
