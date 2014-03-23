@@ -20,7 +20,8 @@ namespace ProfileTimelineView.Blog
             return feed.Items.Select(item => new BlogEntryData
                 {
                     Title = item.Title.Text,
-                    Body = item.Summary.Text
+                    Body = item.Summary.Text,
+                    EntryUrl = item.ItemUri.AbsoluteUri
                 })
                 .Cast<TimelineData>()
                 .ToList();
