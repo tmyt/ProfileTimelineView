@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ProfileTimelineView
+namespace ProfileTimelineView.Facebook
 {
-    public static class StringExtension
+    static class StringExtension
     {
         public static IDictionary<string, string> ParseQueryString(this string enumerable)
         {
