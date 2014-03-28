@@ -4,12 +4,10 @@
     xmlns:controls="using:ProfileTimelineView.Controls">
 
     <Style TargetType="controls:TimelineItem">
-        <Setter Property="Width" Value="280" />
-        <Setter Property="Height" Value="80" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="controls:TimelineItem">
-                    <Grid>
+                    <Grid HorizontalAlignment="Stretch">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
                             <ColumnDefinition />
