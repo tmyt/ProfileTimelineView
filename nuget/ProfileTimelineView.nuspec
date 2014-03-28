@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>ProfileTimelineView</id>
-    <version>1.0.0-rc</version>
+    <version>1.0.0</version>
     <authors>Yutaka Tsumori</authors>
     <owners>Yutaka Tsumori</owners>
     <licenseUrl>https://raw.github.com/tmyt/ProfileTimelineView/master/LICENSE</licenseUrl>

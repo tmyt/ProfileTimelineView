@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ProfileTimelineView.Blog</id>
-    <version>1.0.0-rc</version>
+    <version>1.0.0</version>
     <authors>Yutaka Tsumori</authors>
     <owners>Yutaka Tsumori</owners>
     <licenseUrl>https://raw.github.com/tmyt/ProfileTimelineView/master/LICENSE</licenseUrl>
@@ -12,7 +12,7 @@
     <copyright>Copyright 2014 Yutaka Tsumori</copyright>
     <tags>MSP</tags>
     <dependencies>
-      <dependency id="ProfileTimelineView" version="1.0.0-rc" />
+      <dependency id="ProfileTimelineView" version="1.0.0" />
     </dependencies>
   </metadata>
   <files>
