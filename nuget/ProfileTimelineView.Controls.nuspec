@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ProfileTimelineView.Controls</id>
+    <version>1.0.0-rc</version>
+    <authors>Yutaka Tsumori</authors>
+    <owners>Yutaka Tsumori</owners>
+    <licenseUrl>https://raw.github.com/tmyt/ProfileTimelineView/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>ProfileTimelineViewを表示するコントロールです</description>
+    <releaseNotes>Prerelease.</releaseNotes>
+    <copyright>Copyright 2014 Yutaka Tsumori</copyright>
+    <tags>MSP</tags>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\ProfileTimelineView.Controls.dll" target="lib\netcore45" />
+    <file src="..\bin\Release\ProfileTimelineView.Controls.pri" target="lib\netcore45" />
+    <file src="..\bin\Release\Themes\Generic.xbf" target="lib\netcore45\ProfileTimelineView.Controls\Themes\Generic.xbf" />
+  </files>
+</package>

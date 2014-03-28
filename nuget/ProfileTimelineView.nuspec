@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ProfileTimelineView</id>
+    <version>1.0.0-rc</version>
+    <authors>Yutaka Tsumori</authors>
+    <owners>Yutaka Tsumori</owners>
+    <licenseUrl>https://raw.github.com/tmyt/ProfileTimelineView/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>ソーシャルメディアから情報を取得するライブラリです</description>
+    <releaseNotes>Prerelease.</releaseNotes>
+    <copyright>Copyright 2014 Yutaka Tsumori</copyright>
+    <tags>MSP</tags>
+    <dependencies />
+  </metadata>
+  <files>
+    <file src="..\bin\Release\ProfileTimelineView.dll" target="lib\netcore45" />
+    <file src="..\bin\Release\ProfileTimelineView.pri" target="lib\netcore45" />
+  </files>
+</package>

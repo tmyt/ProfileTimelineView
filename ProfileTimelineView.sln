@@ -13,6 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfileTimelineView.Faceboo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfileTimelineView.Blog", "ProfileTimelineView.Blog\ProfileTimelineView.Blog.csproj", "{D10AF843-513D-4FFE-881B-EB9B08D5F6EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{816DD85D-3CCD-48E1-B38F-2664CD68FF9C}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\ProfileTimelineView.Blog.nuspec = nuget\ProfileTimelineView.Blog.nuspec
+		nuget\ProfileTimelineView.Controls.nuspec = nuget\ProfileTimelineView.Controls.nuspec
+		nuget\ProfileTimelineView.Facebook.nuspec = nuget\ProfileTimelineView.Facebook.nuspec
+		nuget\ProfileTimelineView.nuspec = nuget\ProfileTimelineView.nuspec
+		nuget\ProfileTimelineView.Twitter.nuspec = nuget\ProfileTimelineView.Twitter.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

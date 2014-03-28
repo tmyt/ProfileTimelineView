@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ProfileTimelineView.Facebook</id>
+    <version>1.0.0-rc</version>
+    <authors>Yutaka Tsumori</authors>
+    <owners>Yutaka Tsumori</owners>
+    <licenseUrl>https://raw.github.com/tmyt/ProfileTimelineView/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Facebookから情報を取得するライブラリです</description>
+    <releaseNotes>Prerelease.</releaseNotes>
+    <copyright>Copyright 2014 Yutaka Tsumori</copyright>
+    <tags>MSP</tags>
+    <dependencies>
+      <dependency id="ProfileTimelineView" version="1.0.0-rc" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\ProfileTimelineView.Facebook.dll" target="lib\netcore45" />
+    <file src="..\bin\Release\ProfileTimelineView.Facebook.pri" target="lib\netcore45" />
+  </files>
+</package>
